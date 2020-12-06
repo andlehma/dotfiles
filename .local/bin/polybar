@@ -1,0 +1,20 @@
+killall -q polybar
+
+# Wait until the processes have been shut down
+while pgrep -u $UID -x polybar > /dev/null; do sleep 1; done
+
+if type "xrandr"; then
+  PRIMARY=$(xrandr --query | grep " connected" | grep "primary" | cut -d" " -f1)
+  OTHERS=$(xrandr --query | grep " connected" | grep -v "primary" | cut -d" " -f1)
+
+# Launch on primary monitor
+MONITOR=$PRIMARY polybar --reload mainbar &
+sleep 1
+
+# Launch on all other monitors
+for m in $OTHERS; do
+  MONITOR=$m polybar --reload mainbar &
+done
+else
+  polybar --reload mainbar &
+fi

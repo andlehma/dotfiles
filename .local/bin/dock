@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [[ $(xrandr --query | grep " connected") == *"DVI-"* ]]; then
+  ~/.screenlayout/dock.sh
+else
+  ~/.screenlayout/undocked.sh
+fi
+
+~/.local/bin/polybar

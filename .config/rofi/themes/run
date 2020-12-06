@@ -1,0 +1,36 @@
+/*
+            __ _
+ _ __ ___  / _(_)    _ __ _   _ _ __
+| '__/ _ \| |_| |   | '__| | | | '_ \
+| | | (_) |  _| |   | |  | |_| | | | |
+|_|  \___/|_| |_|   |_|   \__,_|_| |_|
+*/
+
+*{
+    background: rgba ( 0, 0, 0, 0% );
+    background-color: @background;
+    color: #fff;
+    font: "SF Pro Text, Font Awesome 5 Free 24";
+}
+
+#window {
+    background-color: rgba (50, 50, 50, 90%);
+    width: 1920;
+    height: 1080;
+    padding: 400 600;
+}
+
+#inputbar {
+    children:   [ textbox-prompt-colon,entry,case-indicator ];
+}
+
+#textbox-prompt-colon {
+    expand:     false;
+    str:        "";
+    margin:     0px 0.2em 0em 0em ;
+    text-color: @normal-foreground;
+}
+
+#element.selected.normal {
+    background-color: rgba (0, 0, 0, 30%);
+}

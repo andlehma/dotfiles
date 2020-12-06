@@ -1,0 +1,25 @@
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.editor.highlightModifiedTabs": true,
+  "window.menuBarVisibility": "toggle",
+  "editor.fontFamily": "'SF Mono', Hack, Consolas, 'Courier New', monospace, 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid'",
+  "editor.fontSize": 16,
+  "editor.rulers": [80],
+  "keyboard.dispatch": "keyCode",
+  "editor.defaultFormatter": null,
+  "editor.tabSize": 2,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
