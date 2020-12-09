@@ -14,7 +14,7 @@
 client.focused #333333 #333333 #ffffff
 font pango:SF Pro Text, Font Awesome 5 Free 11
 default_border pixel 0
-exec --no-startup-id nitrogen --restore
+exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers
 exec xcompmgr
 
 ################
