@@ -124,6 +124,7 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id setxkbmap -option caps:escape
 exec_always --no-startup-id ~/.local/bin/dock
 exec --no-startup-id xinput set-prop 15 330 0.2 # trackpoint
+exec_always --no-startup-id xmodmap ~/.Xmodmap
 
 ##########
 ## gaps ##
