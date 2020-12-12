@@ -24,14 +24,14 @@ else
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'ctrlpvim/ctrlp.vim'
-  Plug 'rakr/vim-one'
+  Plug 'arcticicestudio/nord-vim'
   Plug 'Yggdroot/indentLine'
   Plug 'HerringtonDarkholme/yats.vim'
   Plug 'christoomey/vim-tmux-navigator'
   Plug 'airblade/vim-gitgutter'
   call plug#end()
 
-  let g:airline_theme='one'
+  let g:airline_theme='nord'
   let g:airline_powerline_fonts = 1
   let g:airline#extensions#tabline#enabled = 2
   let g:ctrlp_custom_ignore='node_modules'
@@ -53,7 +53,7 @@ else
   endif
 
   syntax on
-  colorscheme one
+  colorscheme nord
 
   set updatetime=100
 endif

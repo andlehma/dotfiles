@@ -9,8 +9,8 @@
 
 [bar/mainbar]
 monitor = ${env:MONITOR:}
-background = #2f343f
-foreground = #ffffff
+background = #2e3440
+foreground = #eceff4
 separator = "|"
 font-0 = SF Pro Text:style=Medium: # pixelsize=11;2
 font-1 = Font Awesome 5 Free Solid:style=Regular:size=9;2
@@ -27,7 +27,7 @@ tray-position = right
 [module/i3]
 type = internal/i3
 pin-workspaces = true
-label-focused-underline = #FFFFFF
+label-focused-underline = #eceff4
 label-mode-padding = 1
 label-focused = %index%
 label-unfocused = %index%

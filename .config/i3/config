@@ -11,7 +11,7 @@
 ## styling ##
 #############
 
-client.focused #333333 #333333 #ffffff
+client.focused #2e3440 #2e3440 #eceff4
 font pango:SF Pro Text, Font Awesome 5 Free 11
 default_border pixel 0
 exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers

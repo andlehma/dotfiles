@@ -14,7 +14,7 @@
 }
 
 #window {
-    background-color: rgba (50, 50, 50, 90%);
+    background-color: rgba (59, 66, 82, 90%);
     width: 1920;
     height: 1080;
     padding: 400 600;
@@ -32,5 +32,5 @@
 }
 
 #element.selected.normal {
-    background-color: rgba (0, 0, 0, 30%);
+    background-color: rgba (46, 52, 64, 100%);
 }

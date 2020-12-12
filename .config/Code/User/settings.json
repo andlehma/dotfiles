@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "Nord",
   "workbench.editor.highlightModifiedTabs": true,
   "window.menuBarVisibility": "toggle",
   "editor.fontFamily": "'SF Mono', Hack, Consolas, 'Courier New', monospace, 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid'",
@@ -22,4 +22,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "window.zoomLevel": 0,
+  "editor.scrollBeyondLastLine": false,
 }

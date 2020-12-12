@@ -10,7 +10,7 @@
     padding = 8
     horizontal_padding = 8
     frame_width = 1
-    frame_color = "#aaaaaa"
+    frame_color = "#eceff4"
     separator_color = frame
     sort = yes
     idle_threshold = 120
@@ -46,7 +46,6 @@
     class = Dunst
     startup_notification = false
     verbosity = mesg
-    corner_radius = 10
     force_xinerama = false
     mouse_left_click = do_action
     mouse_middle_click = close_all
@@ -60,18 +59,18 @@
 
 [urgency_low]
     background = "#2f343F"
-    foreground = "#d2d2d2"
+    foreground = "#eceff4"
     timeout = 7
 
 [urgency_normal]
     background = "#2f343F"
-    foreground = "#d2d2d2"
+    foreground = "#eceff4"
     timeout = 7
 
 [urgency_critical]
-    background = "#2f343F"
-    foreground = "#d2d2d2"
-    frame_color = "#ff0000"
+    background = "#2e3440"
+    foreground = "#eceff4"
+    frame_color = "#eceff4"
     timeout = 0
 
 [stack-volumes]
